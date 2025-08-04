@@ -1,10 +1,10 @@
-import {API_ENDPOINTS} from "./apiEndpoints.js";
+import { API_ENDPOINTS } from "./apiEndpoints.js";
 
 const CLOUDINARY_UPLOAD_PRESET = "moneymanager";
 
 const uploadProfileImage = async (image) => {
     const formData = new FormData();
-    formData.append("file", image);
+    formData.append("file", image); // image: File or Blob
     formData.append("upload_preset", CLOUDINARY_UPLOAD_PRESET);
 
     try {
@@ -25,6 +25,6 @@ const uploadProfileImage = async (image) => {
         console.error("Error uploading the image", error);
         throw error;
     }
-}
+};
 
 export default uploadProfileImage;

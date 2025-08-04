@@ -1,4 +1,4 @@
-import {BrowserRouter, Navigate, Route, Routes} from "react-router-dom";
+import { BrowserRouter, Navigate, Route, Routes } from "react-router-dom";
 import Home from "./pages/Home.jsx";
 import Income from "./pages/Income.jsx";
 import Expense from "./pages/Expense.jsx";
@@ -6,8 +6,10 @@ import Category from "./pages/Category.jsx";
 import Filter from "./pages/Filter.jsx";
 import Login from "./pages/Login.jsx";
 import Signup from "./pages/Signup.jsx";
-import {Toaster} from "react-hot-toast";
+import { Toaster } from "react-hot-toast";
 import LandingPage from "./pages/LandingPage.jsx";
+import About from "./pages/About.jsx";       // Added
+import Contact from "./pages/Contact.jsx";   // Added
 
 const App = () => {
     return (
@@ -24,19 +26,21 @@ const App = () => {
                     <Route path="/filter" element={<Filter />} />
                     <Route path="/login" element={<Login />} />
                     <Route path="/signup" element={<Signup />} />
+                    <Route path="/about" element={<About />} />        {/* Added */}
+                    <Route path="/contact" element={<Contact />} />    {/* Added */}
                 </Routes>
             </BrowserRouter>
         </>
-    )
-}
+    );
+};
 
 const Root = () => {
     const isAuthenticated = !!localStorage.getItem("token");
     return isAuthenticated ? (
         <Navigate to="/dashboard" />
     ) : (
-      <Navigate to="/home" />
+        <Navigate to="/home" />
     );
-}
+};
 
 export default App;

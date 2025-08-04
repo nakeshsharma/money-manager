@@ -1,5 +1,5 @@
 export const BASE_URL = "http://localhost:8080/api/v1.0";
-const CLOUDINARY_CLOUD_NAME = "dhadf5h7j";
+const CLOUDINARY_CLOUD_NAME = "dyxwoz8yo";
 
 export const API_ENDPOINTS = {
     LOGIN: "/login",
@@ -22,4 +22,4 @@ export const API_ENDPOINTS = {
     APPLY_FILTERS: "/filter",
     DASHBOARD_DATA: "/dashboard",
     UPLOAD_IMAGE: `https://api.cloudinary.com/v1_1/${CLOUDINARY_CLOUD_NAME}/image/upload`
-}
+};

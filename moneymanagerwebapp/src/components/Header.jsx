@@ -1,15 +1,15 @@
-import {useState} from "react";
-import {assets} from "../assets/assets.js";
-import {Link} from "react-router-dom";
-import {Menu, X} from "lucide-react";
+import { useState } from "react";
+import { assets } from "../assets/assets.js";
+import { Link } from "react-router-dom";
+import { Menu, X } from "lucide-react";
 
 const Header = () => {
     const [isMenuOpen, setIsMenuOpen] = useState(false);
 
     const navLinks = [
-        { name: 'Home', to: '/home' },
-        { name: 'About us', to: '/about' },
-        { name: 'Contact us', to: '/contact' }
+        { name: "Home", to: "/home" },
+        { name: "About us", to: "/about" },
+        { name: "Contact us", to: "/contact" },
     ];
 
     return (
@@ -25,7 +25,11 @@ const Header = () => {
                     {/* Desktop Navigation */}
                     <nav className="hidden lg:flex items-center space-x-8">
                         {navLinks.map((link) => (
-                            <Link to={link.to} key={link.name} href={link.href} className="text-gray-600 hover:text-purple-600 transition-colors">
+                            <Link
+                                to={link.to}
+                                key={link.name}
+                                className="text-gray-600 hover:text-purple-600 transition-colors"
+                            >
                                 {link.name}
                             </Link>
                         ))}
@@ -34,7 +38,10 @@ const Header = () => {
                     {/* Action Buttons & Hamburger Menu */}
                     <div className="flex items-center space-x-4">
                         <div className="hidden sm:flex items-center space-x-4">
-                            <Link to="/login" className="text-gray-600 hover:text-purple-600 transition-colors">
+                            <Link
+                                to="/login"
+                                className="text-gray-600 hover:text-purple-600 transition-colors"
+                            >
                                 Login
                             </Link>
                             <Link
@@ -49,7 +56,11 @@ const Header = () => {
                             className="lg:hidden p-2 rounded-md text-gray-600 hover:bg-gray-100"
                             aria-label="Toggle menu"
                         >
-                            {isMenuOpen ? <X className="h-6 w-6" /> : <Menu className="h-6 w-6" />}
+                            {isMenuOpen ? (
+                                <X className="h-6 w-6" />
+                            ) : (
+                                <Menu className="h-6 w-6" />
+                            )}
                         </button>
                     </div>
                 </div>
@@ -61,20 +72,30 @@ const Header = () => {
                     <div className="container mx-auto px-4 py-4">
                         <nav className="flex flex-col space-y-4">
                             {navLinks.map((link) => (
-                                <a key={link.name} href={link.href} className="text-gray-600 hover:text-purple-600 transition-colors">
+                                <Link
+                                    key={link.name}
+                                    to={link.to}
+                                    className="text-gray-600 hover:text-purple-600 transition-colors"
+                                    onClick={() => setIsMenuOpen(false)} // close menu on click
+                                >
                                     {link.name}
-                                </a>
+                                </Link>
                             ))}
                             <div className="flex flex-col space-y-3 pt-4 border-t border-gray-100">
-                                <a href="#" className="text-gray-600 hover:text-purple-600 transition-colors w-full text-left">
+                                <Link
+                                    to="/login"
+                                    className="text-gray-600 hover:text-purple-600 transition-colors w-full text-left"
+                                    onClick={() => setIsMenuOpen(false)}
+                                >
                                     Login
-                                </a>
-                                <a
-                                    href="#"
+                                </Link>
+                                <Link
+                                    to="/signup"
                                     className="bg-purple-600 text-white px-4 py-2 rounded-lg font-semibold hover:bg-purple-700 transition-colors text-center"
+                                    onClick={() => setIsMenuOpen(false)}
                                 >
                                     Get Started
-                                </a>
+                                </Link>
                             </div>
                         </nav>
                     </div>
