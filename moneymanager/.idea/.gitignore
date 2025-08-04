@@ -3,3 +3,12 @@
 /workspace.xml
 # Environment-dependent path to Maven home directory
 /mavenHomeManager.xml
+# Ignore application.properties files
+**/application.properties
+
+# Ignore everything in target folder
+/target/
+
+# Ignore application-prod.properties files
+**/application-prod.properties
+
