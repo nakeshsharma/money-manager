@@ -28,14 +28,22 @@ Experience the application in action by watching the walkthrough video:
 
 Here are some screenshots showcasing key parts of the application:
 
-![Dashboard](./screenshots/dashboard.png)  
+![Dashboard](URL-to-uploaded-dashboard-image)  
 *Visual overview of income, expenses, and transaction summaries.*
 
-![Transaction Form](./screenshots/transaction-form.png)  
+![Transaction Form](URL-to-uploaded-transaction-form-image)  
 *Add or edit expense and income transactions with ease.*
 
-![Category Management](./screenshots/category-management.png)  
+![Category Management](URL-to-uploaded-category-management-image)  
 *Customize and manage your transaction categories.*
+
+![Income Dashboard](URL-to-uploaded-income-dashboard-image)  
+*View detailed income data and trends.*
+
+![Filter Data](URL-to-uploaded-filter-data-image)  
+*Filter and search through transactions quickly and efficiently.*
+
+*(Replace each `URL-to-uploaded-...-image` with the actual URLs after uploading your screenshots to GitHub or an image hosting service.)*
 
 ---
 
@@ -75,9 +83,6 @@ Here are some screenshots showcasing key parts of the application:
 ## Author Information
 
 **Nakesh Sharma**  
-Email: nakeshsharma78@gmail.com  
+Email: [nakeshsharma78@gmail.com](mailto:nakeshsharma78@gmail.com)  
 GitHub: [nakeshsharma](https://github.com/nakeshsharma)  
 Location: Hyderabad, India
-
-
-
