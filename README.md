@@ -1,88 +1,95 @@
-# Personal Finance Manager | Fullstack Java Application
+# Money Manager Java Fullstack Project
 
-![Java](https://img.shields.io/badge/Java-007396?style=for-the-badge&logo=java&logoColor=white)
-![Spring Boot](https://img.shields.io/badge/SpringBoot-6DB33F?style=for-the-badge&logo=springboot&logoColor=white)
-![React](https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB)
-![JWT](https://img.shields.io/badge/JWT-000000?style=for-the-badge&logo=jwt&logoColor=white)
+![Java](https://img.shields.io/badge/Java-ED8B00?style=for-the-badge&logo=java&logoColor=white)
+![Spring Boot](https://img.shields.io/badge/Spring_Boot-6DB33F?style=for-the-badge&logo=spring&logoColor=white)
+![React](https://img.shields.io/badge/React-61DAFB?style=for-the-badge&logo=react&logoColor=black)
+![JWT](https://img.shields.io/badge/JWT-000000?style=for-the-badge&logo=JSON%20web%20tokens&logoColor=white)
 
-**Live Site:** [Money Manager App](https://money-manager-1-ri1z.onrender.com/home)  
-**Code Repository:** [money-manager](https://github.com/nakeshsharma/money-manager)
-
----
-
-## Project Overview
-
-This Personal Finance Manager is a comprehensive full-stack Java project that provides users with a seamless way to track incomes and expenditures. Featuring smart categorization and filter options, secure JWT authentication, and practical dashboards, the application merges robust backend services powered by Spring Boot with a dynamic React frontend for a smooth user experience.
+**Live Demo:** [Money Manager App](https://money-manager-1-ri1z.onrender.com/home)  
+**GitHub Repo:** [Money-Manager-Java-Fullstack-Project](https://github.com/nakeshsharma/money-manager)
 
 ---
 
-## Demo Video
+## Table of Contents
+- [Overview](#overview)
+- [Demo](#demo)
+- [Features](#features)
+- [Technologies](#technologies)
+- [Screenshots](#screenshots)
+- [Achievements & Learning](#achievements--learning)
+- [Author & Contact](#author--contact)
 
-Experience the application in action by watching the walkthrough video:
+---
 
-[![Video Demo](https://img.youtube.com/vi/J5TXq3BWTPA/0.jpg)](https://www.youtube.com/watch?v=J5TXq3BWTPA)
+## Overview
+Money Manager is a **full-stack web application** designed to help users manage income, expenses, and categories effortlessly. It features secure authentication, real-time transaction tracking, data filtering, and insightful data visualization dashboards—all powered by Java, Spring Boot, MySQL, React, and JWT for a robust and secure experience.
+
+---
+
+## Demo
+Watch the demo video to see the application in action:
+
+[![Money Manager Demo](https://img.youtube.com/vi/J5TXq3BWTPA/0.jpg)](https://www.youtube.com/watch?v=J5TXq3BWTPA)
+
+Click the image above or [click here](https://www.youtube.com/watch?v=J5TXq3BWTPA) to watch the full demo on YouTube.
+
+---
+
+## Features
+- 💰 Income & Expense Tracking: Easily add, modify, and organize transactions.
+- 🎯 Category Management: Customize and manage spending/income categories.
+- 🔎 Data Filtering: Quickly search and filter transactions by category or keyword for efficient data retrieval.
+- 📊 Personalized Dashboard: View detailed financial reports and graphs.
+- 🔐 Authentication: Secure login using JWT and Spring Security frameworks.
+- ⚙️ RESTful APIs: Efficient backend interface powered by Spring Boot.
+- ⚛️ Dynamic Frontend: Responsive UI built with React.
+- 🔄 Real-Time Updates: Instant transaction updates for smooth user experience.
+
+---
+
+## Technologies
+| Technology         | Usage                         |
+|--------------------|------------------------------|
+| Java               | Backend logic & APIs          |
+| Spring Boot        | Backend framework & Security  |
+| MySQL              | Database                     |
+| React.js           | Frontend UI                  |
+| JWT                | Secure authentication        |
+| HTML, CSS          | Styling and layout           |
+| Tailwind CSS       | Additional responsive styling|
 
 ---
 
 ## Screenshots
+Below are screenshots demonstrating key features of the application:
 
-Here are some screenshots showcasing key parts of the application:
+![Dashboard](https://github.com/nakeshsharma/money-manager/blob/main/Dashboard.png)  
+*Overview of income, expenses, and transactions*
 
-![Dashboard](URL-to-uploaded-dashboard-image)  
-*Visual overview of income, expenses, and transaction summaries.*
+![Filter Data](https://github.com/nakeshsharma/money-manager/blob/main/Filter%20data.png)  
+*Powerful data filtering for quick transaction search*
 
-![Transaction Form](URL-to-uploaded-transaction-form-image)  
-*Add or edit expense and income transactions with ease.*
+![Income Dashboard](https://github.com/nakeshsharma/money-manager/blob/main/Income%20dashboard.png)  
+*Detailed income tracking and analysis*
 
-![Category Management](URL-to-uploaded-category-management-image)  
-*Customize and manage your transaction categories.*
+![User Dashboard](https://github.com/nakeshsharma/money-manager/blob/main/User%20dashoard%20.png)  
+*User-specific personalized dashboard*
 
-![Income Dashboard](URL-to-uploaded-income-dashboard-image)  
-*View detailed income data and trends.*
-
-![Filter Data](URL-to-uploaded-filter-data-image)  
-*Filter and search through transactions quickly and efficiently.*
-
-*(Replace each `URL-to-uploaded-...-image` with the actual URLs after uploading your screenshots to GitHub or an image hosting service.)*
+![Add Category](https://github.com/nakeshsharma/money-manager/blob/main/add%20category.png)  
+*Manage and customize transaction categories*
 
 ---
 
-## Key Features
-
-- Efficient creation, editing, and deletion of financial transactions.
-- Flexible categorization system for incomes and expenses.
-- User-specific dashboards displaying visual financial summaries.
-- Secure login and session management using JWT and Spring Security.
-- Fast and responsive frontend powered by React.js.
-- Clean and maintainable RESTful APIs supporting all core operations.
-- Advanced filtering and search functionality for quick access.
+## Achievements & Learning
+- Developed secure RESTful APIs facilitating financial operations.
+- Implemented JWT authentication with role-based access control.
+- Created user-friendly dashboards visualizing financial data effectively.
+- Enhanced usability with powerful search and filter options for transactions.
 
 ---
 
-## Technologies Used
-
-| Technology       | Role                          |
-|------------------|-------------------------------|
-| Java, Spring Boot| Backend logic and security    |
-| MySQL            | Data persistence              |
-| React.js         | Frontend UI and interaction   |
-| JWT              | Authentication mechanism      |
-| HTML, CSS, Bootstrap | Frontend styling and layout  |
-
----
-
-## Professional Highlights
-
-- Designed modular API endpoints improving maintainability and scalability.
-- Ensured user data protection and secure access via JWT token-based authentication.
-- Developed a reactive web interface that adapts seamlessly across devices.
-- Implemented transaction filtering enhancing user efficiency.
-
----
-
-## Author Information
-
+## Author & Contact
 **Nakesh Sharma**  
-Email: [nakeshsharma78@gmail.com](mailto:nakeshsharma78@gmail.com)  
-GitHub: [nakeshsharma](https://github.com/nakeshsharma)  
-Location: Hyderabad, India
+- Email: [nakeshsharma78@gmail.com](mailto:nakeshsharma78@gmail.com)  
+- GitHub: [nakeshsharma](https://github.com/nakeshsharma)  
+- Location: Hyderabad, India  
