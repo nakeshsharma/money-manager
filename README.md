@@ -5,7 +5,7 @@
 ![React](https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB)
 ![JWT](https://img.shields.io/badge/JWT-000000?style=for-the-badge&logo=jwt&logoColor=white)
 
-**Live Site:** *(Add Hosted Link Here)*  
+**Live Site:** [Money Manager App](https://money-manager-1-ri1z.onrender.com/home)  
 **Code Repository:** [money-manager](https://github.com/nakeshsharma/money-manager)
 
 ---
@@ -21,6 +21,21 @@ This Personal Finance Manager is a comprehensive full-stack Java project that pr
 Experience the application in action by watching the walkthrough video:
 
 [![Video Demo](https://img.youtube.com/vi/J5TXq3BWTPA/0.jpg)](https://www.youtube.com/watch?v=J5TXq3BWTPA)
+
+---
+
+## Screenshots
+
+Here are some screenshots showcasing key parts of the application:
+
+![Dashboard](./screenshots/dashboard.png)  
+*Visual overview of income, expenses, and transaction summaries.*
+
+![Transaction Form](./screenshots/transaction-form.png)  
+*Add or edit expense and income transactions with ease.*
+
+![Category Management](./screenshots/category-management.png)  
+*Customize and manage your transaction categories.*
 
 ---
 
@@ -63,8 +78,6 @@ Experience the application in action by watching the walkthrough video:
 Email: nakeshsharma78@gmail.com  
 GitHub: [nakeshsharma](https://github.com/nakeshsharma)  
 Location: Hyderabad, India
-
----
 
 
 
